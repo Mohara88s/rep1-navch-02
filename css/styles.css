@@ -93,7 +93,8 @@ address {
 /* Special teg-style settings*/
 
 /* logo*/
-.logo span {
+.logo span,
+#selected-page {
   color: var(--accent-color);
 }
 .logo {
@@ -136,6 +137,8 @@ address a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .benefits h3 {
   font-weight: 700;
@@ -161,7 +164,7 @@ address a {
   background-color: var(--section-bg-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62x;
+  line-height: 1.62;
   text-align: center;
 }
 .filter button:hover,
