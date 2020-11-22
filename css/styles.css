@@ -148,6 +148,9 @@ address a {
   font-weight: 400;
   line-height: 1.71;
 }
+.team-section {
+  background-color: var(--section-bg-color);
+}
 .team h3 {
   font-weight: 500;
   font-size: 16px;
